@@ -1,0 +1,23 @@
+
+@charset "utf-8";
+// @import 'bulma.sass';
+@import '~bulma/sass/utilities/_all.sass';
+@import '~bulma';
+@import '~bulma-calendar';
+@import '~bulma-switch';
+@import 'pages/body.scss';
+@import 'components/util.scss';
+
+@font-face {
+  font-family: 'Arvo';
+  font-display: auto;
+  src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+}
+
+body {
+  background-color: $primary;
+}
+input:invalid {
+  border: 1px solid#ff9999;
+  background-color: #ffe6e6;
+}
